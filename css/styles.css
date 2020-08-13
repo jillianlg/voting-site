@@ -1,0 +1,23 @@
+body {
+  background-image: url("https://images02.military.com/sites/default/files/media/global/newscred/2017/04/us-flag-21-apr-2017.jpeg");
+}
+
+#vote, #under-18 {
+  display: none;
+}
+
+#vote {
+  background-color: #F0F8FF;
+}
+
+#under-18 {
+  background-color: lightgray;
+}
+
+.group-std {
+  border: 1px lightgray solid;
+  padding: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
