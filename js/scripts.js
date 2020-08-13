@@ -4,11 +4,20 @@
 // Those old enough to vote should be offered links to websites to register to vote, locate their nearest polling location/ballot dropbox is, or list when upcoming elections will take place. -->
 
 $(document).ready(function() {
-  const age = parseInt(prompt("How old are you?"));
+  let age = parseInt(prompt("How old are you?"));
 
   if (age >= 18) {
     $("#vote").show();
   } else {
     $("#under-18").show();
+  } 
+  
+  if (age) {
+    $("input#age").val();
+  } else {
+    alert('Please enter your age.');
   }
-});
+  // let age = parseInt(prompt("How old are you?"));
+  // }
+    event.preventDefault();
+  });
